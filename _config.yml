@@ -26,10 +26,28 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://blog.jkolios.xyz" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Jkolios
 
+# Link to avatar in the navbar (/assets/images/avatar.png). Leave empty if no logo desired. Two avatars for light and dark mode.
+# Avatar for light mode site
+lightavatar: /assets/images/light_bauhaus_logo.png
+# Avatar for dark mode site
+darkavatar: /assets/images/dark_bauhaus_logo.png
+
+# A short description (e.g., A blog dedicated to reviewing cat gifs), used as part of the title tag like Ben's Awesome Site | A blog dedicated to reviewing cat gifs instead of Ben's Awesome Site | Long description about a blog dedicated to reviewing cat gifs that would be used when page.title is not defined.
+tagline: Random things found on the internet. Probably related to webdev and infra topics.
+
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  email: jason.kolios@gmail.com
+  github: Jkolios
+  instagram: jsoneins
+  linkedin: jkolios
+  rss: foo # just type anything here for a working RSS icon
 
 # Exclude from processing.
 # The following items will not be processed, by default.
