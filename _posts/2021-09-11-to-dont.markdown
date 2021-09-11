@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "To don't"
+date:   2021-09-11 22:10:48 +0300
+categories: jekyll update
+---
+[To don't](https://crazymarvin.com/to-dont/)
