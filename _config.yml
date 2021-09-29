@@ -68,5 +68,3 @@ footer-links:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-permalink: /:path
