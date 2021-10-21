@@ -1,4 +1,0 @@
-[submodule "CV"]
-	path = CV
-	url = git@github.com:JKolios/CV.git
-	branch = main
